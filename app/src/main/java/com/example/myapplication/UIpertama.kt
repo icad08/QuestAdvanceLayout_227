@@ -106,6 +106,11 @@ fun ActivitasPertama(modifier: Modifier){
                         fontSize = 20.sp,
                         color = Color.Yellow,
                     )
+                    Text(
+                        text = stringResource(id = R.string.nomorHp1), // Nomor HP dari strings.xml
+                        fontSize = 20.sp,
+                        color = Color.Yellow,
+                    )
                 }
             }
         }
