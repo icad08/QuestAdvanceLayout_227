@@ -139,6 +139,11 @@ fun ActivitasPertama(modifier: Modifier){
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
+                    Text(
+                        text = stringResource(id = R.string.alamat2), // Alamat dari strings.xml
+                        fontSize = 20.sp,
+                        color = Color.Yellow,
+                    )
                 }
             }
         }
